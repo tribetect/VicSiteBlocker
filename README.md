@@ -33,8 +33,8 @@ VicSiteBlocker/
 │   ├── icon48.png      # Medium icon (extension page)
 │   └── icon128.png     # Large icon (store/install)
 ├── README.md           # Documentation
-├── CHANGELOG.md        # Version history and updates
-└── LICENSE             # CC BY-NC-SA 4.0 License text
+├── Changelog.md        # Version history and updates
+└── LICENSE.md           # CC BY-NC-SA 4.0 License text
 ## 🚀 Installation
 
 ### Manual Installation (Unpacked)
@@ -101,7 +101,7 @@ The following features are planned for future versions or can be implemented as 
 
 ## 📝 Changelog
 
-See [CHANGELOG.md](CHANGELOG.md) for a detailed history of updates.
+See [Changelog.md](Changelog.md) for a detailed history of updates.
 
 ### v1.1.0 (Current)
 - Added dynamic Options page for easy domain management.
