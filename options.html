@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: sans-serif; padding: 20px; max-width: 600px; }
+    textarea { width: 100%; height: 150px; margin-bottom: 10px; }
+    button { padding: 8px 16px; cursor: pointer; }
+    .status { margin-top: 10px; color: green; }
+    .error { color: red; }
+  </style>
+</head>
+<body>
+  <h2>Blocked Domains</h2>
+  <p>Enter one domain per line (e.g., facebook.com). Do not include http/https.</p>
+  
+  <textarea id="domainInput" placeholder="example.com&#10;reddit.com"></textarea>
+  
+  <button id="saveBtn">Save & Update Rules</button>
+  <div id="status" class="status"></div>
+
+  <script src="options.js"></script>
+</body>
+</html>
